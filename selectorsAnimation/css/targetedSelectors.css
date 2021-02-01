@@ -1,0 +1,16 @@
+/* Direct child uses the '>' sign */
+div > p {
+    background: #555;
+    color: lightpink;
+}
+
+/* directly after */
+div + p {
+    background: #426;
+    color: #fff;
+}
+
+/* By attribute  */
+a[target] {
+    background: red;
+}
