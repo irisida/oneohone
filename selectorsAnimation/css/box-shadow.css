@@ -1,0 +1,26 @@
+body {
+    background: goldenrod;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    padding: 1rem;
+    margin: 1rem;
+    background: rgb(232, 167, 1);
+    border-radius: 5 px;
+
+    /* offsetX, offsetY color */
+    box-shadow: 10px 10px darkred;
+
+    /* offsetX, offsetY blur-raduis color */
+    box-shadow: 3px 12px 40px rgba(118, 18, 18, 0.554);
+
+    /* offsetX, offsetY blur-raduis color */
+    box-shadow: 3px 12px 20px 1px rgba(118, 18, 18, 0.2);
+
+    /* box-shadow: inset 3px 12px 20px 1px rgba(118, 18, 18, 0.25); */
+}
