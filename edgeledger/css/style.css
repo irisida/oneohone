@@ -49,6 +49,11 @@ img {
     position: fixed;
     top: 0px;
     padding: 0 30px;
+    transition: 0.5s ease-in;
+}
+
+.navbar.top {
+    background: transparent;
 }
 
 .navbar a {
@@ -69,6 +74,13 @@ img {
 .hero {
     background: url('../img/home/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.hero.blog {
+    background: url('../img/home/blog.jpg') no-repeat center center/cover;
+    height: 30vh;
     position: relative;
     color: #fff;
 }
@@ -190,4 +202,31 @@ img {
     color: rgb(120, 119, 119);
     margin-top: 3 0px;
     font-size: 13px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column,
+    .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .footer a {
+    }
 }
