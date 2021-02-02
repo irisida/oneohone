@@ -1,0 +1,17 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+.item {
+    padding: 3rem;
+    border: 1px solid #aaa;
+    background: #f4f4f4;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.item:nth-child(odd) {
+    background-color: #444;
+}
