@@ -1,0 +1,73 @@
+body {
+    background-color: #333;
+}
+
+.container {
+    position: relative;
+}
+
+.box-1 {
+    position: absolute;
+    top: 10;
+    left: 0;
+    border-radius: 0 100px 100px 0;
+    background: goldenrod;
+    width: 0px;
+    height: 200px;
+    animation: animate1 2s forwards ease-in;
+
+    /* animation-name: animate1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; */
+}
+
+.box-2 {
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    border-radius: 100px 0 0 100px;
+    background: rgb(209, 32, 218);
+    width: 0px;
+    height: 200px;
+    animation: animate2 2s forwards ease-in;
+
+    /* animation-name: animate1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes animate1 {
+    0% {
+        width: 0px;
+        background-color: green;
+        top: 100px;
+    }
+    50% {
+        width: 500px;
+        background-color: orange;
+        top: 300px;
+    }
+    100% {
+        width: 1000px;
+        background-color: red;
+        top: 500px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        width: 0px;
+        background-color: green;
+        top: 500px;
+    }
+    50% {
+        width: 500px;
+        background-color: orange;
+        top: 300px;
+    }
+    100% {
+        width: 1000px;
+        background-color: red;
+        top: 100px;
+    }
+}
