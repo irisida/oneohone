@@ -74,3 +74,40 @@ h6 {
     padding: 1rem;
     align-items: center;
 }
+
+#main-nav .logo {
+    width: 140px;
+}
+
+#main-nav ul {
+    justify-self: end;
+    display: flex;
+}
+
+#main-nav ul li a {
+    padding: 0.75rem;
+    font-weight: bold;
+}
+
+#main-nav ul li a.current {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+#main-nav ul li a:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+#main-nav .social {
+    justify-self: center;
+}
+
+#main-nav .social i {
+    color: #777;
+    margin-right: 0.85rem;
+}
+
+#main-nav .social i:hover {
+    color: var(--tech-color);
+}
