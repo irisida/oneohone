@@ -171,6 +171,15 @@ h6 {
     padding: 3rem;
 }
 
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #555 1px doted;
+    width: 90%;
+}
+
+#main-footer li a:hover {
+    color: var(--primary-color);
+}
 /* Mian nav */
 #main-nav {
     background: #fff;
